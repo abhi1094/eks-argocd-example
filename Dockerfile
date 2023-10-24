@@ -1,2 +1,2 @@
-From nginx:latest
-COPY index.html /usr/share/nginx/html
+FROM alpine
+CMD ["echo", "Hello StackOverflow!"]
