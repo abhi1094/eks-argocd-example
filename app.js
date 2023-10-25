@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
       <body>
         <center>
           <h1>Hello, ArgoCD!</h1>
-          <img src="https://example.com/image.jpg" alt="An Image">
+          <img src='https://raw.githubusercontent.com/Ajaypathak372/cloud-task2/master/task2.jpg' width=600 height=480>
         </center>
       </body>
     </html>
