@@ -4,9 +4,9 @@ const app = express()
 app.get('/hello', (req, res) => {
   const htmlContent = '
                         <html>
-                          <body
+                          <body>
                           <center>
-                          <h1>Hello,ArgoCD</h1> <br>
+                          <h1>This is the demo for Continuous Deployment on Kubernetes with GitOps and ArgoCD</h1> <br>
                           <br>
                           <img src='https://raw.githubusercontent.com/Ajaypathak372/cloud-task2/master/task2.jpg' width=600 height=480>
                           </center>
