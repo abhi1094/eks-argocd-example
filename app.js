@@ -1,5 +1,16 @@
 const express = require('express')
 const app = express()
 
-app.get('/hello', (req, res) => res.send('GitOps Deployment through argocd!'))
+app.get('/hello', (req, res) => res.send(
+  <Html>
+    <body>
+    <center>
+    <h1>This is the demo for Continuous Deployment on Kubernetes with GitOps and ArgoCD</h1> <br>
+    <br>
+    <img src='https://raw.githubusercontent.com/Ajaypathak372/cloud-task2/master/task2.jpg' width=600 height=480>
+    </center>
+    </body>
+  </Html>
+ )
+)
 app.listen(3000, () => console.log('Server ready'))
