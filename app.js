@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     <html>
       <body>
         <center>
-          <h1>Hello, ArgoCD!</h1>
+          <h1>GitOps through ArgoCD!</h1>
           <img src='https://raw.githubusercontent.com/Ajaypathak372/cloud-task2/master/task2.jpg' width=600 height=480>
         </center>
       </body>
